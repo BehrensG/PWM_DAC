@@ -1,0 +1,424 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "2c9a3dd6-931b-4123-b00f-9baea7dc6b77")
+	(paper "A3")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 177.8 118.11) (xy 190.5 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06290727-4a58-46df-816d-913f5b1be904")
+	)
+	(wire
+		(pts
+			(xy 177.8 110.49) (xy 190.5 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c70d28c-8209-4e38-8e25-032c1d272033")
+	)
+	(wire
+		(pts
+			(xy 127 137.16) (xy 190.5 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "308e88a8-cefa-4cfc-9474-7b9ec2691f35")
+	)
+	(wire
+		(pts
+			(xy 228.6 110.49) (xy 241.3 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f36f54c-c295-45c9-a11c-c566c04b3263")
+	)
+	(wire
+		(pts
+			(xy 127 139.7) (xy 190.5 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51adb4bd-298b-4e47-854b-6558a6358a3c")
+	)
+	(wire
+		(pts
+			(xy 127 134.62) (xy 190.5 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fca30bbd-2382-45ef-b891-e75aeafe11c7")
+	)
+	(sheet
+		(at 88.9 153.67)
+		(size 190.5 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "35a5ea7a-2114-4f7b-865b-daf0dd7c84d5")
+		(property "Sheetname" "POWER"
+			(at 88.9 152.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 88.9 192.3546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PWM_DAC"
+				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 105.41)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "733b56bb-668f-4cc4-94fb-a3b617279a5b")
+		(property "Sheetname" "CONN_IN"
+			(at 88.9 104.6984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CONN_IN.kicad_sch"
+			(at 88.9 144.0946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CLK" output
+			(at 127 134.62 0)
+			(uuid "b4bd8000-d85d-408f-80fd-443d69178490")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_F" output
+			(at 127 139.7 0)
+			(uuid "7255418e-6f4b-4bb6-95c7-9464325764d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_M" output
+			(at 127 137.16 0)
+			(uuid "07cbc7ce-d60a-4719-822d-546c45300836")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PWM_DAC"
+				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 105.41)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "bed25fa3-c160-496f-8611-7e161af3864a")
+		(property "Sheetname" "DAC"
+			(at 190.5 104.6984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DAC.kicad_sch"
+			(at 190.5 144.0946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VREF_N" input
+			(at 190.5 118.11 180)
+			(uuid "ce4cb62e-3e53-412b-a6e6-d68f2828f0c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VREF_P" input
+			(at 190.5 110.49 180)
+			(uuid "a87ed14a-a13c-4733-88cc-ef2b1620243d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK" input
+			(at 190.5 134.62 180)
+			(uuid "61491a0d-af82-45f2-aa32-cec07c63898d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_M" input
+			(at 190.5 137.16 180)
+			(uuid "27f3809e-96b8-4bc2-b64b-d67eafeeb6bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_OUT" output
+			(at 228.6 110.49 0)
+			(uuid "0fe6f0c9-2e01-4eb5-a47e-6d5fea6bcad2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_F" input
+			(at 190.5 139.7 180)
+			(uuid "14ee5c08-9fdb-4176-a586-66531e896da2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PWM_DAC"
+				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 105.41)
+		(size 38.1 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "dcf01361-02cc-4d84-89bc-3e429e190ed8")
+		(property "Sheetname" "CONN_OUT"
+			(at 241.3 104.6984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CONN_OUT.kicad_sch"
+			(at 241.3 123.7746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DAC_OUT" input
+			(at 241.3 110.49 180)
+			(uuid "24cba407-9a2f-4f6b-8622-93b2f8d4ec3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PWM_DAC"
+				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 105.41)
+		(size 38.1 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "e2989761-872c-4e27-95c1-5b6d4b908eeb")
+		(property "Sheetname" "VREF"
+			(at 139.7 104.6984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VREF.kicad_sch"
+			(at 139.7 123.7746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VREF_N" output
+			(at 177.8 118.11 0)
+			(uuid "63c0f6b3-ad29-49d9-ad62-27bf7c08176d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VREF_P" output
+			(at 177.8 110.49 0)
+			(uuid "9b67cb1f-0ceb-4174-8e6f-d0ec1600a80c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PWM_DAC"
+				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
