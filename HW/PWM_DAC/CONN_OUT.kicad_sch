@@ -281,37 +281,27 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 115.57) (xy 199.39 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a852dee4-e6f0-420d-a635-09438699157e")
+	)
+	(wire
+		(pts
 			(xy 196.85 118.11) (xy 199.39 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d079441-4711-4aa7-936e-0db313c2e631")
-	)
-	(wire
-		(pts
-			(xy 196.85 120.65) (xy 196.85 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "868a2db3-f964-4d01-8032-a7054dae4029")
-	)
-	(wire
-		(pts
-			(xy 186.69 115.57) (xy 199.39 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5a0a340-2d85-4b9b-a2ee-14881f05b8f3")
+		(uuid "f0ad6d1e-11d0-43a0-8cdb-762d93f8f912")
 	)
 	(hierarchical_label "DAC_OUT"
 		(shape input)
-		(at 186.69 115.57 180)
+		(at 196.85 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -322,7 +312,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 196.85 120.65 0)
+		(at 196.85 115.57 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -332,8 +322,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6669c6e4-2ef4-43cc-8e99-79329fe24464")
-		(property "Reference" "#PWR038"
-			(at 196.85 127 0)
+		(property "Reference" "#PWR094"
+			(at 190.5 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -344,17 +334,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 196.85 125.73 0)
+			(at 193.04 115.5699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 120.65 0)
+			(at 196.85 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -365,7 +356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 120.65 0)
+			(at 196.85 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -376,7 +367,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 120.65 0)
+			(at 196.85 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -392,7 +383,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/dcf01361-02cc-4d84-89bc-3e429e190ed8"
-					(reference "#PWR038")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -409,7 +400,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3e4a814-90cb-4be0-8824-d7608f784a31")
-		(property "Reference" "J502"
+		(property "Reference" "J2"
 			(at 204.47 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -471,7 +462,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/dcf01361-02cc-4d84-89bc-3e429e190ed8"
-					(reference "J502")
+					(reference "J2")
 					(unit 1)
 				)
 			)

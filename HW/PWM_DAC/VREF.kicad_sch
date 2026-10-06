@@ -277,6 +277,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1138,145 +1261,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+15V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+15V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+15V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+15V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+15V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5VL"
 			(power global)
 			(pin_numbers
@@ -1805,6 +1789,12 @@
 		(uuid "1f700b7b-8ef3-4d3e-a446-5af2f1d507dd")
 	)
 	(junction
+		(at 255.27 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fa7ba9e-b60f-4234-92fa-7d86516a7a55")
+	)
+	(junction
 		(at 295.91 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1823,6 +1813,12 @@
 		(uuid "5186e1ee-389f-4f33-b2f6-daeeafce9fc4")
 	)
 	(junction
+		(at 262.89 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57dd49ce-4403-4877-bd17-077ef97f5663")
+	)
+	(junction
 		(at 129.54 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1833,6 +1829,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "994007f5-2a3d-4f61-a07b-174cccf13fe4")
+	)
+	(junction
+		(at 364.49 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aaa198f9-076f-4e88-bc03-47907d37c460")
 	)
 	(junction
 		(at 318.77 147.32)
@@ -1858,15 +1860,31 @@
 		(color 0 0 0 0)
 		(uuid "be41ccf4-1e5d-4f70-9c05-c739541759cf")
 	)
+	(junction
+		(at 364.49 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e52ee65d-4c35-4076-a5ba-6a2cae91cb02")
+	)
 	(wire
 		(pts
-			(xy 335.28 147.32) (xy 372.11 147.32)
+			(xy 335.28 147.32) (xy 364.49 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "05ab3abe-7dc5-4944-ae2a-929b6c9f6cff")
+	)
+	(wire
+		(pts
+			(xy 255.27 146.05) (xy 255.27 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af88835-2214-43de-9549-684ee2c2781e")
 	)
 	(wire
 		(pts
@@ -1950,7 +1968,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 157.48) (xy 372.11 157.48)
+			(xy 360.68 157.48) (xy 364.49 157.48)
 		)
 		(stroke
 			(width 0)
@@ -1970,6 +1988,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 157.48) (xy 372.11 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26ce27e0-7770-4b69-b6c4-0cac845b7eaf")
+	)
+	(wire
+		(pts
 			(xy 288.29 147.32) (xy 295.91 147.32)
 		)
 		(stroke
@@ -1980,7 +2008,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 147.32) (xy 280.67 147.32)
+			(xy 248.92 147.32) (xy 255.27 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2110,6 +2138,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 157.48) (xy 262.89 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "555358cc-0eb6-410d-9506-c06805002658")
+	)
+	(wire
+		(pts
 			(xy 100.33 109.22) (xy 107.95 109.22)
 		)
 		(stroke
@@ -2200,6 +2238,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 157.48) (xy 280.67 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e486b28-4212-4187-8f1b-961c691a2e81")
+	)
+	(wire
+		(pts
 			(xy 180.34 113.03) (xy 198.12 113.03)
 		)
 		(stroke
@@ -2220,7 +2268,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 157.48) (xy 280.67 157.48)
+			(xy 248.92 157.48) (xy 262.89 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2247,6 +2295,26 @@
 			(type default)
 		)
 		(uuid "8b6b1a3d-ea98-40a6-a0d4-b912c4838cc4")
+	)
+	(wire
+		(pts
+			(xy 364.49 147.32) (xy 372.11 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc44ed6-8119-4a30-ac1f-7c780c8908a6")
+	)
+	(wire
+		(pts
+			(xy 255.27 147.32) (xy 280.67 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a05ac410-e18f-4bae-b19a-f4bb1335fc39")
 	)
 	(wire
 		(pts
@@ -2380,6 +2448,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 146.05) (xy 364.49 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f24b9f2c-f80c-46eb-a318-d7ede90bde43")
+	)
+	(wire
+		(pts
 			(xy 214.63 132.08) (xy 218.44 132.08)
 		)
 		(stroke
@@ -2387,6 +2465,16 @@
 			(type default)
 		)
 		(uuid "f260c623-2a1a-4780-a44d-8c2159f4b3a4")
+	)
+	(wire
+		(pts
+			(xy 364.49 157.48) (xy 364.49 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6367273-e789-45ad-b8ae-da39d78f6b2a")
 	)
 	(hierarchical_label "VREF_N"
 		(shape output)
@@ -2422,7 +2510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03ef5e32-76c6-4d31-862b-13a2518afe11")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR068"
 			(at 107.95 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -2482,7 +2570,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "#PWR04")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -2500,7 +2588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06b8a4f4-eda0-40e6-bf35-a0d06914a587")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR067"
 			(at 107.95 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2560,7 +2648,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "#PWR072")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -2578,7 +2666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c7b8eb6-3abd-4d95-8b54-158e8f7f4049")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR062"
 			(at 29.21 276.86 0)
 			(hide yes)
 			(show_name no)
@@ -2638,7 +2726,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "#PWR010")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -2656,7 +2744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a5135a8-0008-422b-bf87-cd75c5216897")
-		(property "Reference" "R21"
+		(property "Reference" "R27"
 			(at 307.34 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2676,7 +2764,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 307.34 159.258 90)
 			(hide yes)
 			(show_name no)
@@ -2718,7 +2806,186 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "R21")
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 364.49 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f6da0ae-f063-4ed1-a5e7-05437034e138")
+		(property "Reference" "TP13"
+			(at 367.03 141.4779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 367.03 144.0179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 369.57 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369.57 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 364.49 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 364.49 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 364.49 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "07ac48b7-b96d-463c-8cff-8085c3e6751e")
+		)
+		(instances
+			(project "PWM_DAC"
+				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 226.06 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a71049f-a50f-4ddf-b561-c7cba128689a")
+		(property "Reference" "#PWR071"
+			(at 226.06 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 226.06 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
+			(at 226.06 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 226.06 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5dc88fed-6b52-46d6-9177-e1b223703587")
+		)
+		(instances
+			(project "PWM_DAC"
+				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -2736,7 +3003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fb2f281-b1f6-4470-8803-feec3615c07e")
-		(property "Reference" "C3"
+		(property "Reference" "C29"
 			(at 96.52 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2746,7 +3013,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF/50V/X7R"
+		(property "Value" "1uF/25V/X7R"
 			(at 96.52 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2756,7 +3023,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 100.33 119.6848 0)
 			(hide yes)
 			(show_name no)
@@ -2798,7 +3065,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "C3")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -2806,7 +3073,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:ADA4522-2")
-		(at 189.23 132.08 0)
+		(at 189.23 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2816,8 +3083,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41dd6d90-0bb4-4d7e-b48b-313f3e55481e")
-		(property "Reference" "U2"
-			(at 189.23 121.92 0)
+		(property "Reference" "U8"
+			(at 189.23 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2826,8 +3093,8 @@
 				)
 			)
 		)
-		(property "Value" "ADA4522-2"
-			(at 189.23 124.46 0)
+		(property "Value" "ADA4522-2ARZ-RL"
+			(at 189.23 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2836,8 +3103,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Module:Adafruit_Feather"
-			(at 189.23 132.08 0)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 189.23 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2848,7 +3115,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4522-1_4522-2_4522-4.pdf"
-			(at 189.23 132.08 0)
+			(at 189.23 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2859,7 +3126,7 @@
 			)
 		)
 		(property "Description" "55 V supply, 5uV max Vos, 3MHz GBW, EMI Enhanced, Zero Drift, 5.8 nV/√Hz, RRO dual operational amplifiers"
-			(at 189.23 132.08 0)
+			(at 189.23 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2896,7 +3163,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "U2")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -2914,7 +3181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5792317e-cb25-4eac-80f7-08e44305f741")
-		(property "Reference" "R1"
+		(property "Reference" "R22"
 			(at 210.82 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2934,7 +3201,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 210.82 133.858 90)
 			(hide yes)
 			(show_name no)
@@ -2976,85 +3243,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+15V")
-		(at 226.06 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67f445ae-5721-45c1-a167-a653999e006c")
-		(property "Reference" "#PWR03"
-			(at 226.06 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+15V"
-			(at 226.06 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 226.06 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5da068a6-3da2-490f-bbe4-125ddfbd1961")
-		)
-		(instances
-			(project "PWM_DAC"
-				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "#PWR03")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -3092,7 +3281,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 356.87 159.258 90)
 			(hide yes)
 			(show_name no)
@@ -3152,7 +3341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7025a5c2-3e8d-4286-8aa7-f0047613efd7")
-		(property "Reference" "C5"
+		(property "Reference" "C28"
 			(at 96.52 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3172,7 +3361,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 100.33 108.2548 0)
 			(hide yes)
 			(show_name no)
@@ -3214,7 +3403,108 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "C5")
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 364.49 158.75 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71c7555c-9d82-48d0-a424-ba44d103dd74")
+		(property "Reference" "TP14"
+			(at 367.03 160.7819 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 367.03 163.3219 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 359.41 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 359.41 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 364.49 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 364.49 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 364.49 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "709ff39a-abf3-4367-aa45-b50ffbd76e1d")
+		)
+		(instances
+			(project "PWM_DAC"
+				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -3232,7 +3522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77686a8e-711e-4238-8c14-3dcaa104c27f")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR063"
 			(at 49.53 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -3292,7 +3582,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "#PWR081")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -3310,7 +3600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7dbf9e2c-7ca2-4f16-83db-dc0f0f51cc7b")
-		(property "Reference" "C1"
+		(property "Reference" "C30"
 			(at 133.35 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3321,7 +3611,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF/50V/X7R"
+		(property "Value" "1uF/25V/X7R"
 			(at 133.35 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3332,7 +3622,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 130.5052 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -3374,7 +3664,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "C1")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -3392,7 +3682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9085b662-bb1a-4924-aa64-1113980b4aa6")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR064"
 			(at 49.53 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -3452,7 +3742,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "#PWR082")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -3470,7 +3760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97dc4c4d-5f4e-4aaf-b03e-790ecf216791")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR066"
 			(at 85.09 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -3531,7 +3821,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "#PWR09")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -3549,7 +3839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99242fda-306f-4102-b241-aa9a1febcc64")
-		(property "Reference" "C2"
+		(property "Reference" "C31"
 			(at 252.73 151.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3571,7 +3861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 249.8852 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -3613,7 +3903,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "C2")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -3631,7 +3921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2cd4d0d-c020-4edd-8258-cd069898ef10")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR073"
 			(at 248.92 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -3691,7 +3981,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "#PWR08")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -3709,7 +3999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a788c311-b413-4398-a910-a4e728b077fe")
-		(property "Reference" "R20"
+		(property "Reference" "R24"
 			(at 284.48 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3729,7 +4019,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 284.48 159.258 90)
 			(hide yes)
 			(show_name no)
@@ -3771,7 +4061,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "R20")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -3789,7 +4079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "affa9734-7d50-4a2f-af86-8dc322bd02f9")
-		(property "Reference" "R2"
+		(property "Reference" "R21"
 			(at 158.75 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3811,7 +4101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 154.432 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -3853,7 +4143,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "R2")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -3871,7 +4161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b77b1124-a612-42dc-9013-33a668e1b61b")
-		(property "Reference" "R19"
+		(property "Reference" "R25"
 			(at 307.34 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3891,7 +4181,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 307.34 138.938 90)
 			(hide yes)
 			(show_name no)
@@ -3933,7 +4223,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "R19")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -3951,7 +4241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b828eedd-4cd6-47b2-bb38-20366ef6823e")
-		(property "Reference" "R17"
+		(property "Reference" "R23"
 			(at 284.48 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3971,7 +4261,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 284.48 149.098 90)
 			(hide yes)
 			(show_name no)
@@ -4013,7 +4303,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "R17")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -4031,7 +4321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c288779b-8afb-4afa-aedc-f3043614eb62")
-		(property "Reference" "U2"
+		(property "Reference" "U8"
 			(at 30.48 261.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4042,7 +4332,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ADA4522-2"
+		(property "Value" "ADA4522-2ARZ-RL"
 			(at 30.48 264.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4053,7 +4343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:Adafruit_Feather"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 31.75 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -4087,33 +4377,33 @@
 			)
 		)
 		(pin "3"
-			(uuid "1cfbe023-1881-4fff-ae56-c557f37d5b14")
+			(uuid "1cfbe023-1881-4fff-ae56-c557f37d5b15")
 		)
 		(pin "2"
-			(uuid "924c0364-5e4f-4a9d-b68a-e48e30849b6e")
+			(uuid "924c0364-5e4f-4a9d-b68a-e48e30849b6f")
 		)
 		(pin "7"
-			(uuid "4286906c-8eab-4a97-bff8-b0688bdafc61")
+			(uuid "4286906c-8eab-4a97-bff8-b0688bdafc62")
 		)
 		(pin "4"
-			(uuid "73c9d1e6-07e4-4095-a889-daf1cf612659")
+			(uuid "73c9d1e6-07e4-4095-a889-daf1cf61265a")
 		)
 		(pin "1"
-			(uuid "50d67be5-40ad-4065-b091-35eb1eb2cd4d")
+			(uuid "50d67be5-40ad-4065-b091-35eb1eb2cd4e")
 		)
 		(pin "6"
-			(uuid "2c3af01a-7803-4413-8f08-777854284cee")
+			(uuid "2c3af01a-7803-4413-8f08-777854284cef")
 		)
 		(pin "5"
-			(uuid "ca846dfb-3a98-404f-9ce3-2419e6291f6c")
+			(uuid "ca846dfb-3a98-404f-9ce3-2419e6291f6d")
 		)
 		(pin "8"
-			(uuid "709e75cb-7656-4dbd-bfdc-8d04b2017ba9")
+			(uuid "709e75cb-7656-4dbd-bfdc-8d04b2017baa")
 		)
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "U2")
+					(reference "U8")
 					(unit 3)
 				)
 			)
@@ -4131,7 +4421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7e16bca-7551-4e17-86a2-cb42e449c533")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR072"
 			(at 248.92 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -4191,7 +4481,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "#PWR07")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -4209,7 +4499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0cc10eb-b48c-4693-8faa-0c081dc66357")
-		(property "Reference" "R23"
+		(property "Reference" "R29"
 			(at 331.47 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4229,7 +4519,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 331.47 149.098 90)
 			(hide yes)
 			(show_name no)
@@ -4271,7 +4561,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "R23")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -4289,7 +4579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0df6cd5-3da5-451d-b98c-25048940dfa8")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR070"
 			(at 175.26 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -4350,7 +4640,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "#PWR080")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -4368,7 +4658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d428b134-22c0-44f1-b781-8c33ef10f47b")
-		(property "Reference" "R22"
+		(property "Reference" "R28"
 			(at 307.34 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4388,7 +4678,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 307.34 169.418 90)
 			(hide yes)
 			(show_name no)
@@ -4430,7 +4720,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "R22")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -4438,7 +4728,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:ADA4522-2")
-		(at 189.23 105.41 0)
+		(at 189.23 132.08 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4448,8 +4738,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5d972ac-79b5-4835-b3f8-c6f90a0e0612")
-		(property "Reference" "U2"
-			(at 189.23 95.25 0)
+		(property "Reference" "U8"
+			(at 189.23 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4458,8 +4748,8 @@
 				)
 			)
 		)
-		(property "Value" "ADA4522-2"
-			(at 189.23 97.79 0)
+		(property "Value" "ADA4522-2ARZ-RL"
+			(at 189.23 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4468,8 +4758,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Module:Adafruit_Feather"
-			(at 189.23 105.41 0)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 189.23 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4480,7 +4770,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4522-1_4522-2_4522-4.pdf"
-			(at 189.23 105.41 0)
+			(at 189.23 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4491,7 +4781,7 @@
 			)
 		)
 		(property "Description" "55 V supply, 5uV max Vos, 3MHz GBW, EMI Enhanced, Zero Drift, 5.8 nV/√Hz, RRO dual operational amplifiers"
-			(at 189.23 105.41 0)
+			(at 189.23 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4502,34 +4792,135 @@
 			)
 		)
 		(pin "3"
-			(uuid "1cfbe023-1881-4fff-ae56-c557f37d5b14")
+			(uuid "1cfbe023-1881-4fff-ae56-c557f37d5b16")
 		)
 		(pin "2"
-			(uuid "924c0364-5e4f-4a9d-b68a-e48e30849b6e")
+			(uuid "924c0364-5e4f-4a9d-b68a-e48e30849b70")
 		)
 		(pin "7"
-			(uuid "4286906c-8eab-4a97-bff8-b0688bdafc61")
+			(uuid "4286906c-8eab-4a97-bff8-b0688bdafc63")
 		)
 		(pin "4"
-			(uuid "73c9d1e6-07e4-4095-a889-daf1cf612659")
+			(uuid "73c9d1e6-07e4-4095-a889-daf1cf61265b")
 		)
 		(pin "1"
-			(uuid "50d67be5-40ad-4065-b091-35eb1eb2cd4d")
+			(uuid "50d67be5-40ad-4065-b091-35eb1eb2cd4f")
 		)
 		(pin "6"
-			(uuid "2c3af01a-7803-4413-8f08-777854284cee")
+			(uuid "2c3af01a-7803-4413-8f08-777854284cf0")
 		)
 		(pin "5"
-			(uuid "ca846dfb-3a98-404f-9ce3-2419e6291f6c")
+			(uuid "ca846dfb-3a98-404f-9ce3-2419e6291f6e")
 		)
 		(pin "8"
-			(uuid "709e75cb-7656-4dbd-bfdc-8d04b2017ba9")
+			(uuid "709e75cb-7656-4dbd-bfdc-8d04b2017bab")
 		)
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "U2")
+					(reference "U8")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 255.27 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7020005-b8fe-4264-bfda-5541f044e47b")
+		(property "Reference" "TP12"
+			(at 257.81 141.4779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 257.81 144.0179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 260.35 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 255.27 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 255.27 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 255.27 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "465e9c9b-49fc-4e2d-9137-9825fa54571b")
+		)
+		(instances
+			(project "PWM_DAC"
+				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
+					(reference "TP12")
+					(unit 1)
 				)
 			)
 		)
@@ -4546,7 +4937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc07e09c-029a-4094-a13c-5602c63e57d7")
-		(property "Reference" "R24"
+		(property "Reference" "R30"
 			(at 331.47 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4566,7 +4957,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 331.47 159.258 90)
 			(hide yes)
 			(show_name no)
@@ -4608,7 +4999,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "R24")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -4626,7 +5017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfc85e75-7d19-465c-9abd-a12614fc0cfd")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR065"
 			(at 85.09 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4687,7 +5078,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "#PWR011")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -4705,7 +5096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edef4d69-db86-41c4-9ae7-22113bc37dc9")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR069"
 			(at 129.54 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -4765,7 +5156,108 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "#PWR05")
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 262.89 158.75 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee72d68e-b053-49ae-b4d4-4d9fd76829be")
+		(property "Reference" "TP11"
+			(at 265.43 160.7819 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 265.43 163.3219 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 257.81 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 262.89 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 262.89 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 262.89 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6859439f-82c5-42cf-a33a-92659f5132a0")
+		)
+		(instances
+			(project "PWM_DAC"
+				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -4783,7 +5275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eee1c770-28a3-4d52-987c-aac61c86c1b3")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR061"
 			(at 29.21 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -4843,7 +5335,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "#PWR073")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -4861,7 +5353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0bdef79-f6c1-4e46-b37d-e4ec13982ef9")
-		(property "Reference" "U1"
+		(property "Reference" "U9"
 			(at 104.14 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4945,7 +5437,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "U1")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -4963,7 +5455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8910741-422a-46f2-9260-6e39a9e6f497")
-		(property "Reference" "R18"
+		(property "Reference" "R26"
 			(at 307.34 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4983,7 +5475,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 307.34 149.098 90)
 			(hide yes)
 			(show_name no)
@@ -5025,7 +5517,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "R18")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -5043,7 +5535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9d5efd9-2090-4113-a1b1-8d79ba62368a")
-		(property "Reference" "C38"
+		(property "Reference" "C27"
 			(at 53.34 261.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5065,7 +5557,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 48.5648 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -5107,7 +5599,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "C38")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -5213,7 +5705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fddd2937-d48b-45bf-9372-102dcbdc320b")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 226.06 151.765 0)
 			(hide yes)
 			(show_name no)
@@ -5273,7 +5765,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)

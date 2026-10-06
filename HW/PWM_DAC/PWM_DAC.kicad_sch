@@ -4,10 +4,107 @@
 	(generator_version "10.0")
 	(uuid "2c9a3dd6-931b-4123-b00f-9baea7dc6b77")
 	(paper "A3")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
 	(wire
 		(pts
-			(xy 177.8 118.11) (xy 190.5 118.11)
+			(xy 208.28 109.22) (xy 220.98 109.22)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +114,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 110.49) (xy 190.5 110.49)
+			(xy 208.28 101.6) (xy 220.98 101.6)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +124,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 137.16) (xy 190.5 137.16)
+			(xy 157.48 128.27) (xy 220.98 128.27)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +134,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 110.49) (xy 241.3 110.49)
+			(xy 259.08 101.6) (xy 271.78 101.6)
 		)
 		(stroke
 			(width 0)
@@ -47,7 +144,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 139.7) (xy 190.5 139.7)
+			(xy 157.48 130.81) (xy 220.98 130.81)
 		)
 		(stroke
 			(width 0)
@@ -57,7 +154,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 134.62) (xy 190.5 134.62)
+			(xy 157.48 125.73) (xy 220.98 125.73)
 		)
 		(stroke
 			(width 0)
@@ -65,8 +162,302 @@
 		)
 		(uuid "fca30bbd-2382-45ef-b891-e75aeafe11c7")
 	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 36.83 276.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d07e892-f4ee-4ebb-bf46-92badfb6f2dd")
+		(property "Reference" "FID2"
+			(at 39.37 275.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 39.37 278.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
+			(at 36.83 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 36.83 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 36.83 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 36.83 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "PWM_DAC"
+				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 22.86 276.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc2218f9-7f6d-4264-9301-c493f4f05448")
+		(property "Reference" "FID1"
+			(at 25.4 275.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 25.4 278.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
+			(at 22.86 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 22.86 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 22.86 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 22.86 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "PWM_DAC"
+				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 49.53 276.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edf72068-1766-4d20-a35f-afccc28b8161")
+		(property "Reference" "FID3"
+			(at 52.07 275.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 52.07 278.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
+			(at 49.53 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 49.53 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 49.53 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.5" ""
+			(at 49.53 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "PWM_DAC"
+				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 88.9 153.67)
+		(at 119.38 144.78)
 		(size 190.5 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -82,7 +473,7 @@
 		)
 		(uuid "35a5ea7a-2114-4f7b-865b-daf0dd7c84d5")
 		(property "Sheetname" "POWER"
-			(at 88.9 152.9584 0)
+			(at 119.38 144.0684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -93,7 +484,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 88.9 192.3546 0)
+			(at 119.38 183.4646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -112,7 +503,7 @@
 		)
 	)
 	(sheet
-		(at 88.9 105.41)
+		(at 119.38 96.52)
 		(size 38.1 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -128,7 +519,7 @@
 		)
 		(uuid "733b56bb-668f-4cc4-94fb-a3b617279a5b")
 		(property "Sheetname" "CONN_IN"
-			(at 88.9 104.6984 0)
+			(at 119.38 95.8084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -139,7 +530,7 @@
 			)
 		)
 		(property "Sheetfile" "CONN_IN.kicad_sch"
-			(at 88.9 144.0946 0)
+			(at 119.38 135.2046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -150,7 +541,7 @@
 			)
 		)
 		(pin "CLK" output
-			(at 127 134.62 0)
+			(at 157.48 125.73 0)
 			(uuid "b4bd8000-d85d-408f-80fd-443d69178490")
 			(effects
 				(font
@@ -160,7 +551,7 @@
 			)
 		)
 		(pin "PWM_F" output
-			(at 127 139.7 0)
+			(at 157.48 130.81 0)
 			(uuid "7255418e-6f4b-4bb6-95c7-9464325764d1")
 			(effects
 				(font
@@ -170,7 +561,7 @@
 			)
 		)
 		(pin "PWM_M" output
-			(at 127 137.16 0)
+			(at 157.48 128.27 0)
 			(uuid "07cbc7ce-d60a-4719-822d-546c45300836")
 			(effects
 				(font
@@ -188,7 +579,7 @@
 		)
 	)
 	(sheet
-		(at 190.5 105.41)
+		(at 220.98 96.52)
 		(size 38.1 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -204,7 +595,7 @@
 		)
 		(uuid "bed25fa3-c160-496f-8611-7e161af3864a")
 		(property "Sheetname" "DAC"
-			(at 190.5 104.6984 0)
+			(at 220.98 95.8084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -215,7 +606,7 @@
 			)
 		)
 		(property "Sheetfile" "DAC.kicad_sch"
-			(at 190.5 144.0946 0)
+			(at 220.98 135.2046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -226,7 +617,7 @@
 			)
 		)
 		(pin "VREF_N" input
-			(at 190.5 118.11 180)
+			(at 220.98 109.22 180)
 			(uuid "ce4cb62e-3e53-412b-a6e6-d68f2828f0c5")
 			(effects
 				(font
@@ -236,7 +627,7 @@
 			)
 		)
 		(pin "VREF_P" input
-			(at 190.5 110.49 180)
+			(at 220.98 101.6 180)
 			(uuid "a87ed14a-a13c-4733-88cc-ef2b1620243d")
 			(effects
 				(font
@@ -246,7 +637,7 @@
 			)
 		)
 		(pin "CLK" input
-			(at 190.5 134.62 180)
+			(at 220.98 125.73 180)
 			(uuid "61491a0d-af82-45f2-aa32-cec07c63898d")
 			(effects
 				(font
@@ -256,7 +647,7 @@
 			)
 		)
 		(pin "PWM_M" input
-			(at 190.5 137.16 180)
+			(at 220.98 128.27 180)
 			(uuid "27f3809e-96b8-4bc2-b64b-d67eafeeb6bc")
 			(effects
 				(font
@@ -266,7 +657,7 @@
 			)
 		)
 		(pin "DAC_OUT" output
-			(at 228.6 110.49 0)
+			(at 259.08 101.6 0)
 			(uuid "0fe6f0c9-2e01-4eb5-a47e-6d5fea6bcad2")
 			(effects
 				(font
@@ -276,7 +667,7 @@
 			)
 		)
 		(pin "PWM_F" input
-			(at 190.5 139.7 180)
+			(at 220.98 130.81 180)
 			(uuid "14ee5c08-9fdb-4176-a586-66531e896da2")
 			(effects
 				(font
@@ -294,7 +685,7 @@
 		)
 	)
 	(sheet
-		(at 241.3 105.41)
+		(at 271.78 96.52)
 		(size 38.1 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -310,7 +701,7 @@
 		)
 		(uuid "dcf01361-02cc-4d84-89bc-3e429e190ed8")
 		(property "Sheetname" "CONN_OUT"
-			(at 241.3 104.6984 0)
+			(at 271.78 95.8084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -321,7 +712,7 @@
 			)
 		)
 		(property "Sheetfile" "CONN_OUT.kicad_sch"
-			(at 241.3 123.7746 0)
+			(at 271.78 114.8846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -332,7 +723,7 @@
 			)
 		)
 		(pin "DAC_OUT" input
-			(at 241.3 110.49 180)
+			(at 271.78 101.6 180)
 			(uuid "24cba407-9a2f-4f6b-8622-93b2f8d4ec3e")
 			(effects
 				(font
@@ -350,7 +741,7 @@
 		)
 	)
 	(sheet
-		(at 139.7 105.41)
+		(at 170.18 96.52)
 		(size 38.1 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -366,7 +757,7 @@
 		)
 		(uuid "e2989761-872c-4e27-95c1-5b6d4b908eeb")
 		(property "Sheetname" "VREF"
-			(at 139.7 104.6984 0)
+			(at 170.18 95.8084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -377,7 +768,7 @@
 			)
 		)
 		(property "Sheetfile" "VREF.kicad_sch"
-			(at 139.7 123.7746 0)
+			(at 170.18 114.8846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -388,7 +779,7 @@
 			)
 		)
 		(pin "VREF_N" output
-			(at 177.8 118.11 0)
+			(at 208.28 109.22 0)
 			(uuid "63c0f6b3-ad29-49d9-ad62-27bf7c08176d")
 			(effects
 				(font
@@ -398,7 +789,7 @@
 			)
 		)
 		(pin "VREF_P" output
-			(at 177.8 110.49 0)
+			(at 208.28 101.6 0)
 			(uuid "9b67cb1f-0ceb-4174-8e6f-d0ec1600a80c")
 			(effects
 				(font
