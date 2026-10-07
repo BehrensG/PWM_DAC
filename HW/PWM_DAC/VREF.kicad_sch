@@ -2498,6 +2498,60 @@
 		)
 		(uuid "5cb44f43-5ffe-484f-ac38-641fffe32692")
 	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 13.97 16.51) (xy 406.4 16.51) (xy 406.4 251.46) (xy 298.45 251.46) (xy 298.45 283.21) (xy 13.97 283.21)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "3ede0432-4fe0-4a26-a0b4-8bcdca8c0ce5")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 13.97 16.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e04dd62d-97e5-4006-87b5-d350a4b64213")
+		(property "Netclass" "GND"
+			(at 14.6685 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -640.08 -81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 107.95 140.97 0)
@@ -2797,6 +2851,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 307.34 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 307.34 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1546f72e-2b58-4dce-bf52-a29157d7d239")
 		)
@@ -2891,6 +2967,28 @@
 			)
 		)
 		(property "KLC_S4.5" ""
+			(at 364.49 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 364.49 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 364.49 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -3056,6 +3154,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 96.52 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 96.52 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "147a45d3-0b14-4c1c-88f9-b35b14a160ed")
 		)
@@ -3126,6 +3246,28 @@
 			)
 		)
 		(property "Description" "55 V supply, 5uV max Vos, 3MHz GBW, EMI Enhanced, Zero Drift, 5.8 nV/√Hz, RRO dual operational amplifiers"
+			(at 189.23 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 189.23 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 189.23 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -3234,6 +3376,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 210.82 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 210.82 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6a1588e2-7cb0-4d54-bc78-a0f593d02bd1")
 		)
@@ -3271,7 +3435,7 @@
 				)
 			)
 		)
-		(property "Value" "4R99/0.1%/100mW"
+		(property "Value" "4.99R/0.1%/100mW"
 			(at 356.87 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3305,6 +3469,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 356.87 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 356.87 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 356.87 157.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3385,6 +3571,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 96.52 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 96.52 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 96.52 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3488,6 +3696,28 @@
 			)
 		)
 		(property "KLC_S4.5" ""
+			(at 364.49 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 364.49 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 364.49 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -3645,6 +3875,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 129.54 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 129.54 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 129.54 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -3894,6 +4146,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 248.92 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 248.92 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e19e9fbf-c8b4-40b9-905b-feb431312701")
 		)
@@ -4052,6 +4326,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 284.48 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 284.48 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "17964509-c0a5-40ec-a33b-26bb6286e11f")
 		)
@@ -4076,7 +4372,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "affa9734-7d50-4a2f-af86-8dc322bd02f9")
 		(property "Reference" "R21"
@@ -4124,6 +4420,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 156.21 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 156.21 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 156.21 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -4214,6 +4532,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 307.34 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 307.34 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fd8523a7-ab9a-47ca-879c-38760b768da6")
 		)
@@ -4285,6 +4625,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 284.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 284.48 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 284.48 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4366,6 +4728,28 @@
 			)
 		)
 		(property "Description" "55 V supply, 5uV max Vos, 3MHz GBW, EMI Enhanced, Zero Drift, 5.8 nV/√Hz, RRO dual operational amplifiers"
+			(at 31.75 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 31.75 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 31.75 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -4509,7 +4893,7 @@
 				)
 			)
 		)
-		(property "Value" "0R4/1%/100mW"
+		(property "Value" "0.4R/1%/100mW"
 			(at 331.47 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4543,6 +4927,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 331.47 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 331.47 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 331.47 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4711,6 +5117,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 307.34 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 307.34 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "60a1a5c2-c2b5-4794-8fa9-a205b9690d3a")
 		)
@@ -4791,6 +5219,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 189.23 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 189.23 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "1cfbe023-1881-4fff-ae56-c557f37d5b16")
 		)
@@ -4836,7 +5286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7020005-b8fe-4264-bfda-5541f044e47b")
-		(property "Reference" "TP12"
+		(property "Reference" "TP11"
 			(at 257.81 141.4779 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4913,13 +5363,35 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 255.27 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 255.27 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "465e9c9b-49fc-4e2d-9137-9825fa54571b")
 		)
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "TP12")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -4947,7 +5419,7 @@
 				)
 			)
 		)
-		(property "Value" "0R4/1%/100mW"
+		(property "Value" "0.4R/1%/100mW"
 			(at 331.47 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4981,6 +5453,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 331.47 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 331.47 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 331.47 157.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5174,7 +5668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee72d68e-b053-49ae-b4d4-4d9fd76829be")
-		(property "Reference" "TP11"
+		(property "Reference" "TP12"
 			(at 265.43 160.7819 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5251,13 +5745,35 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 262.89 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 262.89 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6859439f-82c5-42cf-a33a-92659f5132a0")
 		)
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "TP11")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -5351,7 +5867,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f0bdef79-f6c1-4e46-b37d-e4ec13982ef9")
 		(property "Reference" "U9"
 			(at 104.14 128.2699 0)
@@ -5364,8 +5879,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "ADR4550"
-			(at 104.14 130.8099 0)
+		(property "Value" "ADR4550BRZ-R7"
+			(at 104.14 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5400,6 +5915,28 @@
 			)
 		)
 		(property "Description" "5.0V,  Ultralow Noise, High Accuracy Voltage Reference, SOIC-8"
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 110.49 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 110.49 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5508,6 +6045,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 307.34 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 307.34 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3b942f9f-7133-4b68-be5e-9cd9c867f4ec")
 		)
@@ -5580,6 +6139,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 49.53 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 49.53 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 49.53 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -5665,6 +6246,28 @@
 			)
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 223.52 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 223.52 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 223.52 132.08 0)
 			(hide yes)
 			(show_name no)

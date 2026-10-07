@@ -291,7 +291,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 118.11) (xy 199.39 118.11)
+			(xy 193.04 118.11) (xy 199.39 118.11)
 		)
 		(stroke
 			(width 0)
@@ -301,7 +301,7 @@
 	)
 	(hierarchical_label "DAC_OUT"
 		(shape input)
-		(at 196.85 118.11 180)
+		(at 193.04 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -309,6 +309,60 @@
 			(justify right)
 		)
 		(uuid "1fad22db-044b-4dcb-87d5-3aa28d2456e9")
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 13.97 16.51) (xy 406.4 16.51) (xy 406.4 251.46) (xy 298.45 251.46) (xy 298.45 283.21) (xy 13.97 283.21)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "ab5dd3bf-aaad-4869-b2f2-5fb94e1fa760")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 13.97 16.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88a0cbeb-46d7-46c7-8b3f-f522df034374")
+		(property "Netclass" "GND"
+			(at 14.6685 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -640.08 -81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -322,7 +376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6669c6e4-2ef4-43cc-8e99-79329fe24464")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR093"
 			(at 190.5 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -383,7 +437,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/dcf01361-02cc-4d84-89bc-3e429e190ed8"
-					(reference "#PWR094")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -443,6 +497,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 204.47 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 204.47 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 204.47 115.57 0)
 			(hide yes)
 			(show_name no)

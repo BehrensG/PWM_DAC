@@ -251,6 +251,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 36.83 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 36.83 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77"
@@ -349,6 +371,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 22.86 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 22.86 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77"
@@ -437,6 +481,28 @@
 			)
 		)
 		(property "KLC_S4.5" ""
+			(at 49.53 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 49.53 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 49.53 276.86 0)
 			(hide yes)
 			(show_name no)

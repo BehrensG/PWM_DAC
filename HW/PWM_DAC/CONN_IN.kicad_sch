@@ -861,6 +861,60 @@
 		)
 		(uuid "b5fdcc00-6875-4d3d-a56c-1d4eff7e4f90")
 	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 13.97 16.51) (xy 406.4 16.51) (xy 406.4 251.46) (xy 298.45 251.46) (xy 298.45 283.21) (xy 13.97 283.21)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "023e2bce-4b63-409f-a387-78a9594fa812")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 13.97 16.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74792866-1604-4aef-b5f2-58e0a126b061")
+		(property "Netclass" "GND"
+			(at 14.6685 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -640.08 -81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 201.93 121.92 270)
@@ -873,7 +927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "042590a1-4ac6-4853-9d40-74f286328f13")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR094"
 			(at 195.58 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -934,7 +988,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/733b56bb-668f-4cc4-94fb-a3b617279a5b"
-					(reference "#PWR095")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -952,7 +1006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f388b8b-0359-4187-a256-2d65b571c352")
-		(property "Reference" "TP16"
+		(property "Reference" "TP25"
 			(at 233.68 105.9179 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1029,13 +1083,35 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 231.14 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 231.14 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2859d329-e28f-4852-b52c-977eed1383f9")
 		)
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/733b56bb-668f-4cc4-94fb-a3b617279a5b"
-					(reference "TP16")
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -1106,6 +1182,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 209.55 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 209.55 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "3114c1cf-dafc-4754-885a-5ea51dca05ab")
 		)
@@ -1163,7 +1261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2f34f93-5cca-40bd-89be-8ded97409770")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR095"
 			(at 220.98 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -1224,7 +1322,7 @@
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/733b56bb-668f-4cc4-94fb-a3b617279a5b"
-					(reference "#PWR096")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -1242,7 +1340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7e020d5-d0c1-47c2-841a-5c7b3e28d00b")
-		(property "Reference" "TP17"
+		(property "Reference" "TP26"
 			(at 248.92 105.9179 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1319,13 +1417,35 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 246.38 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 246.38 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "09f4dc70-7477-49be-a7e7-4437280a6e91")
 		)
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/733b56bb-668f-4cc4-94fb-a3b617279a5b"
-					(reference "TP17")
+					(reference "TP26")
 					(unit 1)
 				)
 			)
@@ -1343,7 +1463,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa0b569a-2998-416d-8977-04ce52411415")
-		(property "Reference" "TP15"
+		(property "Reference" "TP24"
 			(at 219.71 105.9179 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1420,13 +1540,35 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 217.17 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 217.17 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ff9e45fd-5504-44a6-9e89-a762f6bb80cc")
 		)
 		(instances
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/733b56bb-668f-4cc4-94fb-a3b617279a5b"
-					(reference "TP15")
+					(reference "TP24")
 					(unit 1)
 				)
 			)
