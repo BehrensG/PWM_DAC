@@ -695,14 +695,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Reference_Voltage:ADR4550"
+		(symbol "Reference_Voltage:LT1461BxS8-5"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 0 6.35 0)
+				(at -6.35 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -711,8 +711,8 @@
 					)
 				)
 			)
-			(property "Value" "ADR4550"
-				(at 2.54 -6.35 0)
+			(property "Value" "LT1461BxS8-5"
+				(at 8.89 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -722,30 +722,28 @@
 				)
 			)
 			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 2.54 -7.62 0)
+				(at -8.89 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 				)
 			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADR4520_4525_4530_4533_4540_4550.pdf"
-				(at 2.54 -8.89 0)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/LT1461.pdf"
+				(at -8.89 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 				)
 			)
-			(property "Description" "5.0V,  Ultralow Noise, High Accuracy Voltage Reference, SOIC-8"
+			(property "Description" "Voltage Reference, ±0.06%, 5V, 100mA, 5.5V-20V Vin, SOIC-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -756,7 +754,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "vref"
+			(property "ki_keywords" "voltage reference precision"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -778,69 +776,10 @@
 					)
 				)
 			)
-			(symbol "ADR4550_0_0"
-				(pin no_connect line
-					(at -5.08 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ADR4550_0_1"
+			(symbol "LT1461BxS8-5_1_1"
 				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -849,13 +788,11 @@
 						(type background)
 					)
 				)
-			)
-			(symbol "ADR4550_1_1"
 				(pin no_connect line
-					(at -5.08 2.54 0)
+					(at 7.62 -2.54 180)
 					(length 2.54)
 					(hide yes)
-					(name "NC"
+					(name "DNC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -871,9 +808,9 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 7.62 270)
+					(at 0 7.62 270)
 					(length 2.54)
-					(name "IN"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -888,8 +825,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "~{SHDN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
-					(at -2.54 -7.62 90)
+					(at 0 -7.62 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -907,10 +862,10 @@
 					)
 				)
 				(pin no_connect line
-					(at -5.08 -2.54 0)
+					(at -7.62 -2.54 0)
 					(length 2.54)
 					(hide yes)
-					(name "NC"
+					(name "DNC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -926,9 +881,9 @@
 					)
 				)
 				(pin power_out line
-					(at 7.62 0 180)
+					(at 10.16 0 180)
 					(length 2.54)
-					(name "OUT"
+					(name "VOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -936,6 +891,44 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "DNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "DNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1865,6 +1858,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e52ee65d-4c35-4076-a5ba-6a2cae91cb02")
+	)
+	(no_connect
+		(at 97.79 129.54)
+		(uuid "9ee54071-c1c8-457b-bf0f-12831c268c30")
 	)
 	(wire
 		(pts
@@ -4001,6 +3998,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Reference_Voltage:LT1461BxS8-5")
+		(at 107.95 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "937e1717-bd7e-4d2d-ba47-d53163737e71")
+		(property "Reference" "U9"
+			(at 128.27 123.1198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT1461CCS8-5#TRPBF"
+			(at 128.27 125.6598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 99.06 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/LT1461.pdf"
+			(at 99.06 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Voltage Reference, ±0.06%, 5V, 100mA, 5.5V-20V Vin, SOIC-8"
+			(at 107.95 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e31e5d70-2651-4af3-8ab1-2937025c65be")
+		)
+		(pin "6"
+			(uuid "277a9bbb-bf63-42a2-af9a-70278e096b33")
+		)
+		(pin "3"
+			(uuid "6c2d0866-4c39-42c5-bd84-6c0e42e7adba")
+		)
+		(pin "2"
+			(uuid "0c69f0f4-517a-48d3-9fbe-3357299d5d15")
+		)
+		(pin "7"
+			(uuid "fcd88dd7-89cb-4478-a29e-770633707fb2")
+		)
+		(pin "4"
+			(uuid "51f04270-f93b-45d4-94d8-bc152781dd85")
+		)
+		(pin "8"
+			(uuid "5c765e07-8ac5-4bec-8297-84e9d9a6b691")
+		)
+		(pin "5"
+			(uuid "1959302a-fee2-4ab2-87d7-219a663b1c05")
+		)
+		(instances
+			(project "PWM_DAC"
+				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 91.44 120.65 270)
 		(unit 1)
@@ -5852,129 +5947,6 @@
 			(project "PWM_DAC"
 				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
 					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Reference_Voltage:ADR4550")
-		(at 110.49 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f0bdef79-f6c1-4e46-b37d-e4ec13982ef9")
-		(property "Reference" "U9"
-			(at 104.14 128.2699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ADR4550BRZ-R7"
-			(at 104.14 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 113.03 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADR4520_4525_4530_4533_4540_4550.pdf"
-			(at 113.03 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" "5.0V,  Ultralow Noise, High Accuracy Voltage Reference, SOIC-8"
-			(at 110.49 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 110.49 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 110.49 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "06135adf-14ad-425c-882e-e34d66634b4d")
-		)
-		(pin "3"
-			(uuid "a0c9e502-54ff-49a3-8c13-41f6072e780d")
-		)
-		(pin "7"
-			(uuid "9d3c56e3-cf6c-4e32-9f51-8ae68177b148")
-		)
-		(pin "6"
-			(uuid "c7e51954-6034-46dc-be92-820cc2096187")
-		)
-		(pin "5"
-			(uuid "f9743261-bf17-4322-abf6-a24cf93ff8fb")
-		)
-		(pin "4"
-			(uuid "93c6b0db-2e44-4bf8-a94a-2d7840c58ab6")
-		)
-		(pin "2"
-			(uuid "3336450f-a6da-4c21-9e45-33d6eae000d6")
-		)
-		(pin "1"
-			(uuid "ee62f81f-55c7-47c7-9660-30dae6122288")
-		)
-		(instances
-			(project "PWM_DAC"
-				(path "/2c9a3dd6-931b-4123-b00f-9baea7dc6b77/e2989761-872c-4e27-95c1-5b6d4b908eeb"
-					(reference "U9")
 					(unit 1)
 				)
 			)
