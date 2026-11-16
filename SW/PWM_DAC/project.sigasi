@@ -1,0 +1,10 @@
+{
+    "name": "PWM_DAC",
+    "targets": {
+        "rtl": {
+            "libraryMapping": {
+                "": "work"
+            }
+        }
+    }
+}
